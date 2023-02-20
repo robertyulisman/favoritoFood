@@ -1,0 +1,10 @@
+export const GET_ERRORS = 'GET_ERRORS';
+export const RESET_ERRORS = 'RESET_ERRORS';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const SET_CURRENT_PROFILE = 'SET_CURRENT_PROFILE';
+export const GET_PROFILE = 'GET_PROFILE';
+export const CLEAR_PROFILE = 'CLEAR_PROFILE';
+export const UPDATE_PROFILE = 'UPDATE_PROFILE';
+
+export const GET_UOM = 'GET_UOM';
+export const GET_CURRENCY = 'GET_CURRENCY';
