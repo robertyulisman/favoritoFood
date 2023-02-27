@@ -1,11 +1,13 @@
 const colors = {
   primary: {
-    one: 'rgba(39, 179, 69, 0.8)',
+    one: '#99AA3A',
+    two: '#D1E07A',
   },
   secondary: {
     one: '#E29B59',
   },
   grayscale: {
+    light: '#EFEDED',
     one: '#D9D9D9',
     two: '#A9A8A8',
     three: '#5A5A5A',

@@ -1,6 +1,5 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {Cart, Dashboard, Profile} from '../pages';
-import Icon from 'react-native-vector-icons/AntDesign';
 import colors from '../utils/colors';
 
 import {createSharedElementStackNavigator} from 'react-navigation-shared-element';
@@ -60,7 +59,7 @@ const BottomTabs = () => {
         options={{
           tabBarActiveTintColor: colors.primary.one,
           tabBarLabelStyle: {fontFamily: 'Nunito Regular', fontSize: 12},
-          tabBarLabel: 'Belanja',
+          tabBarLabel: 'Home',
           tabBarIcon: ({color, focused}) => (
             <Image
               resizeMode="contain"
@@ -79,11 +78,11 @@ const BottomTabs = () => {
         component={StackHome}
       />
 
-      <Tab.Screen
+      {/* <Tab.Screen
         options={{
           tabBarActiveTintColor: colors.primary.one,
           tabBarLabelStyle: {fontFamily: 'Nunito Regular', fontSize: 12},
-          tabBarLabel: 'Keranjang',
+          tabBarLabel: 'Pesanan',
           tabBarIcon: ({color, focused}) => (
             <Image
               resizeMode="contain"
@@ -100,7 +99,7 @@ const BottomTabs = () => {
         }}
         name="CartTab"
         component={StackCart}
-      />
+      /> */}
       <Tab.Screen
         options={{
           tabBarActiveTintColor: colors.primary.one,

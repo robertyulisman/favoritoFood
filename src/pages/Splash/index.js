@@ -6,7 +6,7 @@ import {TextTitle} from '../../component/Text';
 const Splash = ({navigation}) => {
   React.useEffect(() => {
     setTimeout(() => {
-      navigation.replace('Home');
+      navigation.replace('Login');
     }, 5000);
   }, []);
 
@@ -20,11 +20,11 @@ const Splash = ({navigation}) => {
       }}>
       <StatusBar backgroundColor={colors.white} barStyle="dark-content" />
       <Image
-        style={{width: 200, height: 120}}
-        source={require('../../asset/images/logo.png')}
+        style={{width: 240, height: 120}}
+        source={require('../../asset/favoritoLogo.png')}
         resizeMode="contain"
       />
-      <TextTitle style={{fontSize: 12}} title="Version 1.0.0" />
+      <TextTitle style={{fontSize: 12, position:'absolute', bottom: 20}} title="Version 1.0.0" />
     </View>
   );
 };

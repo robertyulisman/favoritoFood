@@ -1,4 +1,4 @@
-package com.favorito.food.newarchitecture.components;
+package com.favorito.kurir.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

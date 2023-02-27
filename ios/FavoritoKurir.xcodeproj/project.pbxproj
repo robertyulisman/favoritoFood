@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* FavoritoFoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FavoritoFoodTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-FavoritoFood.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FavoritoFood.a */; };
+		00E356F31AD99517003FC87E /* FavoritoKurirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FavoritoKurirTests.m */; };
+		02D9AB0417514F5684ED73B0 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74DDE061FA134079A52D8ABF /* Nunito-Light.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-FavoritoKurir.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-FavoritoKurir.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-FavoritoFood-FavoritoFoodTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FavoritoFood-FavoritoFoodTests.a */; };
+		174D4C742EEA4E7AA75A1A6C /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4A399866AB14BBE86D1CDC3 /* Nunito-Italic.ttf */; };
+		2EAF8FAF64A541399AFB5349 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E67900B80C3F47CBBEE10454 /* Nunito-ExtraBoldItalic.ttf */; };
+		38E1260DB12D41AD857245A3 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2274ED4C2D34BF89E1F5FEF /* Nunito-Medium.ttf */; };
+		516A0B09FE53440482C8BF0B /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07356077E92C421ABAC523E7 /* Nunito-Black.ttf */; };
+		5278712E75B14DA492EA9FCF /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08BF7ACD7501441981BAA159 /* Nunito-ExtraBold.ttf */; };
+		6AC40BB0AF904A279F078AD3 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F72A38BD13FE45F7AB8B3575 /* Nunito-SemiBoldItalic.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-FavoritoKurir-FavoritoKurirTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FavoritoKurir-FavoritoKurirTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		61AAEF1F2C84481CA2129EBB /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C721E796289D4473B044270A /* Nunito-Black.ttf */; };
-		4C13A4DD6BED434C8915035A /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DF0CAE3E7C8421B8F7475F8 /* Nunito-BlackItalic.ttf */; };
-		ABF59E32CED14EE28A4E8CE3 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AE4A8CA26D44A4F8AE41677 /* Nunito-Bold.ttf */; };
-		B16C4067A95449DDA5FEDD39 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1983D719BD4887A13E382D /* Nunito-BoldItalic.ttf */; };
-		C0C6343670CF43E687DE5938 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C992BFE1741F88CB89271 /* Nunito-ExtraBold.ttf */; };
-		5F626298297343D3A7A38003 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4395DF3B16FA43FE9DFFA752 /* Nunito-ExtraBoldItalic.ttf */; };
-		688AF01C7BD6401B8C8FAA2D /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF4E15C90E234360B22D40AC /* Nunito-ExtraLight.ttf */; };
-		4A880124F7434C529F2701C8 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E538F52527B4186956C6FAA /* Nunito-ExtraLightItalic.ttf */; };
-		A97B0DBA956944038A970B73 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D83659EE52444F598E39924 /* Nunito-Italic-VariableFont_wght.ttf */; };
-		637D8623516C4C0780AED3C0 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EE6F3F2450742CF92F196C6 /* Nunito-Italic.ttf */; };
-		E1A0CEB3BFAB4ED4B5C66112 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92CE2614D62F434E9B9794E1 /* Nunito-Light.ttf */; };
-		CADFAD5C9FFB4C2481393290 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A957F59066634457B613EBC5 /* Nunito-LightItalic.ttf */; };
-		ACE06889702C4BD491780980 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A2534354C3848CD9B766AF4 /* Nunito-Medium.ttf */; };
-		D9957D9762BC48C992503F0B /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 267E1541813047DBAA102B56 /* Nunito-MediumItalic.ttf */; };
-		03070066879442A7B68E6254 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305F893DBDF94E21A3E66A60 /* Nunito-Regular.ttf */; };
-		98A3D6D937A94757B572E56D /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8861841CDA364D9699E54BBB /* Nunito-SemiBold.ttf */; };
-		CEC859214EA44820A1074AA1 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBEB3A622B594436AC6E0327 /* Nunito-SemiBoldItalic.ttf */; };
+		8E063376799F4BCD902F9451 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 755B2E793F104CCBB880D9A0 /* Nunito-SemiBold.ttf */; };
+		92D44558B2AC441AA45D76B7 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 523F824755B746658CF64416 /* Nunito-MediumItalic.ttf */; };
+		9541B59712BA443E8F3A51A2 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA097D6DCE254AE4B87502AE /* Nunito-Bold.ttf */; };
+		A11E7A638ADD457094FD335C /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EF5F2B259EB431EA2C31EE6 /* Nunito-BlackItalic.ttf */; };
+		A174BF8E85AA45448FE6EEAE /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6757A7DC4F634972B5969F75 /* Nunito-Regular.ttf */; };
+		A51BBC51D1A6446286DCC9FB /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26F379EF0F2C408281A5363D /* Nunito-ExtraLight.ttf */; };
+		B3B4CC3F988947FEB06CC534 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 373CC499C82C483287A70F8D /* Nunito-Italic-VariableFont_wght.ttf */; };
+		B3C37246489545328EAAA35F /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 023273652D234DEF9B625E4E /* Nunito-ExtraLightItalic.ttf */; };
+		E172936AC5CC43E89F991DCE /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7DC8FFDFB07420391C98E9B /* Nunito-BoldItalic.ttf */; };
+		FC3F7B26915745F58F8299EB /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3174D1273D439B9F64C1AD /* Nunito-LightItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,45 +39,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = FavoritoFood;
+			remoteInfo = FavoritoKurir;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* FavoritoFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritoFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* FavoritoKurirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavoritoKurirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* FavoritoFoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritoFoodTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* FavoritoFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritoFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FavoritoFood/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FavoritoFood/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FavoritoFood/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FavoritoFood/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FavoritoFood/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FavoritoFood-FavoritoFoodTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FavoritoFood-FavoritoFoodTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-FavoritoFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoFood.debug.xcconfig"; path = "Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-FavoritoFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoFood.release.xcconfig"; path = "Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-FavoritoFood-FavoritoFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoFood-FavoritoFoodTests.debug.xcconfig"; path = "Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-FavoritoFood.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FavoritoFood.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FavoritoFood/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-FavoritoFood-FavoritoFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoFood-FavoritoFoodTests.release.xcconfig"; path = "Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FavoritoKurirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavoritoKurirTests.m; sourceTree = "<group>"; };
+		023273652D234DEF9B625E4E /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLightItalic.ttf"; path = "../src/asset/fonts/Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		07356077E92C421ABAC523E7 /* Nunito-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Black.ttf"; path = "../src/asset/fonts/Nunito-Black.ttf"; sourceTree = "<group>"; };
+		08BF7ACD7501441981BAA159 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBold.ttf"; path = "../src/asset/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0B3174D1273D439B9F64C1AD /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-LightItalic.ttf"; path = "../src/asset/fonts/Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FavoritoKurir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoritoKurir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FavoritoKurir/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FavoritoKurir/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FavoritoKurir/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FavoritoKurir/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FavoritoKurir/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FavoritoKurir-FavoritoKurirTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FavoritoKurir-FavoritoKurirTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F379EF0F2C408281A5363D /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraLight.ttf"; path = "../src/asset/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		373CC499C82C483287A70F8D /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic-VariableFont_wght.ttf"; path = "../src/asset/fonts/Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-FavoritoKurir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoKurir.debug.xcconfig"; path = "Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir.debug.xcconfig"; sourceTree = "<group>"; };
+		523F824755B746658CF64416 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-MediumItalic.ttf"; path = "../src/asset/fonts/Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-FavoritoKurir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoKurir.release.xcconfig"; path = "Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-FavoritoKurir-FavoritoKurirTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoKurir-FavoritoKurirTests.debug.xcconfig"; path = "Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-FavoritoKurir.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FavoritoKurir.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6757A7DC4F634972B5969F75 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Regular.ttf"; path = "../src/asset/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		6EF5F2B259EB431EA2C31EE6 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-BlackItalic.ttf"; path = "../src/asset/fonts/Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		74DDE061FA134079A52D8ABF /* Nunito-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Light.ttf"; path = "../src/asset/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; };
+		755B2E793F104CCBB880D9A0 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBold.ttf"; path = "../src/asset/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FavoritoKurir/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-FavoritoKurir-FavoritoKurirTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavoritoKurir-FavoritoKurirTests.release.xcconfig"; path = "Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4A399866AB14BBE86D1CDC3 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Italic.ttf"; path = "../src/asset/fonts/Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		AA097D6DCE254AE4B87502AE /* Nunito-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Bold.ttf"; path = "../src/asset/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		E2274ED4C2D34BF89E1F5FEF /* Nunito-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-Medium.ttf"; path = "../src/asset/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		E67900B80C3F47CBBEE10454 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-ExtraBoldItalic.ttf"; path = "../src/asset/fonts/Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		C721E796289D4473B044270A /* Nunito-Black.ttf */ = {isa = PBXFileReference; name = "Nunito-Black.ttf"; path = "../src/asset/fonts/Nunito-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8DF0CAE3E7C8421B8F7475F8 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-BlackItalic.ttf"; path = "../src/asset/fonts/Nunito-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1AE4A8CA26D44A4F8AE41677 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; name = "Nunito-Bold.ttf"; path = "../src/asset/fonts/Nunito-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3E1983D719BD4887A13E382D /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-BoldItalic.ttf"; path = "../src/asset/fonts/Nunito-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2A0C992BFE1741F88CB89271 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Nunito-ExtraBold.ttf"; path = "../src/asset/fonts/Nunito-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4395DF3B16FA43FE9DFFA752 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-ExtraBoldItalic.ttf"; path = "../src/asset/fonts/Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		EF4E15C90E234360B22D40AC /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Nunito-ExtraLight.ttf"; path = "../src/asset/fonts/Nunito-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E538F52527B4186956C6FAA /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-ExtraLightItalic.ttf"; path = "../src/asset/fonts/Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5D83659EE52444F598E39924 /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Nunito-Italic-VariableFont_wght.ttf"; path = "../src/asset/fonts/Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8EE6F3F2450742CF92F196C6 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; name = "Nunito-Italic.ttf"; path = "../src/asset/fonts/Nunito-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		92CE2614D62F434E9B9794E1 /* Nunito-Light.ttf */ = {isa = PBXFileReference; name = "Nunito-Light.ttf"; path = "../src/asset/fonts/Nunito-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A957F59066634457B613EBC5 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-LightItalic.ttf"; path = "../src/asset/fonts/Nunito-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6A2534354C3848CD9B766AF4 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; name = "Nunito-Medium.ttf"; path = "../src/asset/fonts/Nunito-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		267E1541813047DBAA102B56 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-MediumItalic.ttf"; path = "../src/asset/fonts/Nunito-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		305F893DBDF94E21A3E66A60 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; name = "Nunito-Regular.ttf"; path = "../src/asset/fonts/Nunito-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8861841CDA364D9699E54BBB /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; name = "Nunito-SemiBold.ttf"; path = "../src/asset/fonts/Nunito-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BBEB3A622B594436AC6E0327 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Nunito-SemiBoldItalic.ttf"; path = "../src/asset/fonts/Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F72A38BD13FE45F7AB8B3575 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-SemiBoldItalic.ttf"; path = "../src/asset/fonts/Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F7DC8FFDFB07420391C98E9B /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Nunito-BoldItalic.ttf"; path = "../src/asset/fonts/Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-FavoritoFood-FavoritoFoodTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-FavoritoKurir-FavoritoKurirTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,20 +93,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-FavoritoFood.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-FavoritoKurir.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* FavoritoFoodTests */ = {
+		00E356EF1AD99517003FC87E /* FavoritoKurirTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* FavoritoFoodTests.m */,
+				00E356F21AD99517003FC87E /* FavoritoKurirTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = FavoritoFoodTests;
+			path = FavoritoKurirTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -117,7 +117,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* FavoritoFood */ = {
+		13B07FAE1A68108700A75B9A /* FavoritoKurir */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -127,15 +127,39 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = FavoritoFood;
+			name = FavoritoKurir;
+			sourceTree = "<group>";
+		};
+		1940B62B2FF3439AB58A2111 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07356077E92C421ABAC523E7 /* Nunito-Black.ttf */,
+				6EF5F2B259EB431EA2C31EE6 /* Nunito-BlackItalic.ttf */,
+				AA097D6DCE254AE4B87502AE /* Nunito-Bold.ttf */,
+				F7DC8FFDFB07420391C98E9B /* Nunito-BoldItalic.ttf */,
+				08BF7ACD7501441981BAA159 /* Nunito-ExtraBold.ttf */,
+				E67900B80C3F47CBBEE10454 /* Nunito-ExtraBoldItalic.ttf */,
+				26F379EF0F2C408281A5363D /* Nunito-ExtraLight.ttf */,
+				023273652D234DEF9B625E4E /* Nunito-ExtraLightItalic.ttf */,
+				373CC499C82C483287A70F8D /* Nunito-Italic-VariableFont_wght.ttf */,
+				A4A399866AB14BBE86D1CDC3 /* Nunito-Italic.ttf */,
+				74DDE061FA134079A52D8ABF /* Nunito-Light.ttf */,
+				0B3174D1273D439B9F64C1AD /* Nunito-LightItalic.ttf */,
+				E2274ED4C2D34BF89E1F5FEF /* Nunito-Medium.ttf */,
+				523F824755B746658CF64416 /* Nunito-MediumItalic.ttf */,
+				6757A7DC4F634972B5969F75 /* Nunito-Regular.ttf */,
+				755B2E793F104CCBB880D9A0 /* Nunito-SemiBold.ttf */,
+				F72A38BD13FE45F7AB8B3575 /* Nunito-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-FavoritoFood.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FavoritoFood-FavoritoFoodTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-FavoritoKurir.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-FavoritoKurir-FavoritoKurirTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,13 +174,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* FavoritoFood */,
+				13B07FAE1A68108700A75B9A /* FavoritoKurir */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* FavoritoFoodTests */,
+				00E356EF1AD99517003FC87E /* FavoritoKurirTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				876B1B11C2E846ACAB6B7DA9 /* Resources */,
+				1940B62B2FF3439AB58A2111 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -166,8 +190,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* FavoritoFood.app */,
-				00E356EE1AD99517003FC87E /* FavoritoFoodTests.xctest */,
+				13B07F961A680F5B00A75B9A /* FavoritoKurir.app */,
+				00E356EE1AD99517003FC87E /* FavoritoKurirTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,45 +199,20 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-FavoritoFood.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-FavoritoFood.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-FavoritoFood-FavoritoFoodTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-FavoritoFood-FavoritoFoodTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-FavoritoKurir.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-FavoritoKurir.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-FavoritoKurir-FavoritoKurirTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-FavoritoKurir-FavoritoKurirTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		876B1B11C2E846ACAB6B7DA9 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				C721E796289D4473B044270A /* Nunito-Black.ttf */,
-				8DF0CAE3E7C8421B8F7475F8 /* Nunito-BlackItalic.ttf */,
-				1AE4A8CA26D44A4F8AE41677 /* Nunito-Bold.ttf */,
-				3E1983D719BD4887A13E382D /* Nunito-BoldItalic.ttf */,
-				2A0C992BFE1741F88CB89271 /* Nunito-ExtraBold.ttf */,
-				4395DF3B16FA43FE9DFFA752 /* Nunito-ExtraBoldItalic.ttf */,
-				EF4E15C90E234360B22D40AC /* Nunito-ExtraLight.ttf */,
-				2E538F52527B4186956C6FAA /* Nunito-ExtraLightItalic.ttf */,
-				5D83659EE52444F598E39924 /* Nunito-Italic-VariableFont_wght.ttf */,
-				8EE6F3F2450742CF92F196C6 /* Nunito-Italic.ttf */,
-				92CE2614D62F434E9B9794E1 /* Nunito-Light.ttf */,
-				A957F59066634457B613EBC5 /* Nunito-LightItalic.ttf */,
-				6A2534354C3848CD9B766AF4 /* Nunito-Medium.ttf */,
-				267E1541813047DBAA102B56 /* Nunito-MediumItalic.ttf */,
-				305F893DBDF94E21A3E66A60 /* Nunito-Regular.ttf */,
-				8861841CDA364D9699E54BBB /* Nunito-SemiBold.ttf */,
-				BBEB3A622B594436AC6E0327 /* Nunito-SemiBoldItalic.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* FavoritoFoodTests */ = {
+		00E356ED1AD99517003FC87E /* FavoritoKurirTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FavoritoFoodTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FavoritoKurirTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -227,14 +226,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = FavoritoFoodTests;
-			productName = FavoritoFoodTests;
-			productReference = 00E356EE1AD99517003FC87E /* FavoritoFoodTests.xctest */;
+			name = FavoritoKurirTests;
+			productName = FavoritoKurirTests;
+			productReference = 00E356EE1AD99517003FC87E /* FavoritoKurirTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* FavoritoFood */ = {
+		13B07F861A680F5B00A75B9A /* FavoritoKurir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FavoritoFood" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FavoritoKurir" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -249,9 +248,9 @@
 			);
 			dependencies = (
 			);
-			name = FavoritoFood;
-			productName = FavoritoFood;
-			productReference = 13B07F961A680F5B00A75B9A /* FavoritoFood.app */;
+			name = FavoritoKurir;
+			productName = FavoritoKurir;
+			productReference = 13B07F961A680F5B00A75B9A /* FavoritoKurir.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FavoritoFood" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FavoritoKurir" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -284,8 +283,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* FavoritoFood */,
-				00E356ED1AD99517003FC87E /* FavoritoFoodTests */,
+				13B07F861A680F5B00A75B9A /* FavoritoKurir */,
+				00E356ED1AD99517003FC87E /* FavoritoKurirTests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,23 +303,23 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				61AAEF1F2C84481CA2129EBB /* Nunito-Black.ttf in Resources */,
-				4C13A4DD6BED434C8915035A /* Nunito-BlackItalic.ttf in Resources */,
-				ABF59E32CED14EE28A4E8CE3 /* Nunito-Bold.ttf in Resources */,
-				B16C4067A95449DDA5FEDD39 /* Nunito-BoldItalic.ttf in Resources */,
-				C0C6343670CF43E687DE5938 /* Nunito-ExtraBold.ttf in Resources */,
-				5F626298297343D3A7A38003 /* Nunito-ExtraBoldItalic.ttf in Resources */,
-				688AF01C7BD6401B8C8FAA2D /* Nunito-ExtraLight.ttf in Resources */,
-				4A880124F7434C529F2701C8 /* Nunito-ExtraLightItalic.ttf in Resources */,
-				A97B0DBA956944038A970B73 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
-				637D8623516C4C0780AED3C0 /* Nunito-Italic.ttf in Resources */,
-				E1A0CEB3BFAB4ED4B5C66112 /* Nunito-Light.ttf in Resources */,
-				CADFAD5C9FFB4C2481393290 /* Nunito-LightItalic.ttf in Resources */,
-				ACE06889702C4BD491780980 /* Nunito-Medium.ttf in Resources */,
-				D9957D9762BC48C992503F0B /* Nunito-MediumItalic.ttf in Resources */,
-				03070066879442A7B68E6254 /* Nunito-Regular.ttf in Resources */,
-				98A3D6D937A94757B572E56D /* Nunito-SemiBold.ttf in Resources */,
-				CEC859214EA44820A1074AA1 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				516A0B09FE53440482C8BF0B /* Nunito-Black.ttf in Resources */,
+				A11E7A638ADD457094FD335C /* Nunito-BlackItalic.ttf in Resources */,
+				9541B59712BA443E8F3A51A2 /* Nunito-Bold.ttf in Resources */,
+				E172936AC5CC43E89F991DCE /* Nunito-BoldItalic.ttf in Resources */,
+				5278712E75B14DA492EA9FCF /* Nunito-ExtraBold.ttf in Resources */,
+				2EAF8FAF64A541399AFB5349 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				A51BBC51D1A6446286DCC9FB /* Nunito-ExtraLight.ttf in Resources */,
+				B3C37246489545328EAAA35F /* Nunito-ExtraLightItalic.ttf in Resources */,
+				B3B4CC3F988947FEB06CC534 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
+				174D4C742EEA4E7AA75A1A6C /* Nunito-Italic.ttf in Resources */,
+				02D9AB0417514F5684ED73B0 /* Nunito-Light.ttf in Resources */,
+				FC3F7B26915745F58F8299EB /* Nunito-LightItalic.ttf in Resources */,
+				38E1260DB12D41AD857245A3 /* Nunito-Medium.ttf in Resources */,
+				92D44558B2AC441AA45D76B7 /* Nunito-MediumItalic.ttf in Resources */,
+				A174BF8E85AA45448FE6EEAE /* Nunito-Regular.ttf in Resources */,
+				8E063376799F4BCD902F9451 /* Nunito-SemiBold.ttf in Resources */,
+				6AC40BB0AF904A279F078AD3 /* Nunito-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,15 +348,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -375,7 +374,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FavoritoFood-FavoritoFoodTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FavoritoKurir-FavoritoKurirTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -397,7 +396,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FavoritoFood-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FavoritoKurir-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,15 +409,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -427,15 +426,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood/Pods-FavoritoFood-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir/Pods-FavoritoKurir-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -444,15 +443,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoFood-FavoritoFoodTests/Pods-FavoritoFood-FavoritoFoodTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavoritoKurir-FavoritoKurirTests/Pods-FavoritoKurir-FavoritoKurirTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -481,7 +480,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* FavoritoFoodTests.m in Sources */,
+				00E356F31AD99517003FC87E /* FavoritoKurirTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +498,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* FavoritoFood */;
+			target = 13B07F861A680F5B00A75B9A /* FavoritoKurir */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -507,14 +506,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FavoritoFood-FavoritoFoodTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-FavoritoKurir-FavoritoKurirTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = FavoritoFoodTests/Info.plist;
+				INFOPLIST_FILE = FavoritoKurirTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -528,17 +527,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavoritoFood.app/FavoritoFood";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavoritoKurir.app/FavoritoKurir";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FavoritoFood-FavoritoFoodTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-FavoritoKurir-FavoritoKurirTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = FavoritoFoodTests/Info.plist;
+				INFOPLIST_FILE = FavoritoKurirTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,19 +551,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavoritoFood.app/FavoritoFood";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FavoritoKurir.app/FavoritoKurir";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FavoritoFood.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-FavoritoKurir.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = FavoritoFood/Info.plist;
+				INFOPLIST_FILE = FavoritoKurir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -575,7 +574,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FavoritoFood;
+				PRODUCT_NAME = FavoritoKurir;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -584,12 +583,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FavoritoFood.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-FavoritoKurir.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = FavoritoFood/Info.plist;
+				INFOPLIST_FILE = FavoritoKurir/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,7 +599,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FavoritoFood;
+				PRODUCT_NAME = FavoritoKurir;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -639,7 +638,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -673,6 +672,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -710,7 +710,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -736,6 +736,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -744,7 +745,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FavoritoFoodTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FavoritoKurirTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -753,7 +754,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FavoritoFood" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FavoritoKurir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -762,7 +763,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FavoritoFood" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FavoritoKurir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

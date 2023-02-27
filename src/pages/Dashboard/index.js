@@ -1,213 +1,242 @@
-import {View, Text, Image, Dimensions, TouchableOpacity} from 'react-native';
+import {
+  View,
+  Text,
+  FlatList,
+  TouchableOpacity,
+  Image,
+  SafeAreaView,
+  Alert,
+  StatusBar,
+} from 'react-native';
 import React from 'react';
-import colors from '../../utils/colors';
 import {TextBody, TextTitle} from '../../component/Text';
+import Button from '../../component/Button';
+import colors from '../../utils/colors';
+import {BottomSheetBackdrop, BottomSheetModal} from '@gorhom/bottom-sheet';
+import Header from '../../component/Header';
+import Slider from 'react-native-slide-to-unlock';
+import {color} from 'react-native-reanimated';
 
-const {width, height} = Dimensions.get('screen');
+const data = [
+  {
+    _id: 1,
+    name: 'Sans Antonio',
+    kecamatan: 'Lubuk Baja',
+    address: 'Jl. Permata Regency Blok 16 No 5',
+    status: 'sedang dikirim',
+  },
+  {
+    _id: 2,
+    name: 'Hendra Wijaya',
+    kecamatan: 'Lubuk Baja',
+    address: 'Jl. Permata Regency Blok 16 No 5',
+    status: 'sedang disiapkan',
+  },
+  {
+    _id: 3,
+    name: 'Edward Marcelino',
+    kecamatan: 'Lubuk Baja',
+    address: 'Jl. Permata Regency Blok 16 No 5',
+    status: 'sedang disiapkan',
+  },
+];
 
 const Dashboard = () => {
+  const [dataSelected, setDataSelected] = React.useState(null);
+  const bottomSheetRef = React.useRef(null);
+  const snapPoints = React.useMemo(() => ['50%', '90%'], []);
+
+  const handleSheetChanges = React.useCallback(index => {
+    console.log('index', index);
+  });
+
+  const renderBackdrop = React.useCallback(props => (
+    <BottomSheetBackdrop
+      {...props}
+      opacity={0.5}
+      BottomSheetModal
+      BottomSheetBackdrop
+      disappearsOnIndex={-1}
+      pressBehavior="close"
+    />
+  ));
+
+  const handleKonfirmasi = item => {
+    setDataSelected(item);
+    bottomSheetRef.current?.present();
+  };
   return (
-    <View
-      style={{
-        flex: 1,
-      }}>
-      <Image
-        style={{width, height: 250, alignSelf: 'center', position: 'absolute'}}
-        resizeMode="cover"
-        source={require('../../asset/background/backgroundHome.png')}
-      />
-
-      <Image
-        style={{
-          width: 100,
-          height: 40,
-          alignSelf: 'center',
-          marginVertical: 20,
-        }}
-        resizeMode="contain"
-        source={require('../../asset/images/logo2.png')}
-      />
-      {/* Search Component start */}
-      <View
-        style={{
-          backgroundColor: colors.white,
-          marginHorizontal: 14,
-          paddingHorizontal: 12,
-          paddingVertical: 12,
-          borderRadius: 30,
-          flexDirection: 'row',
-          alignItems: 'center',
-        }}>
-        <Image
-          style={{
-            width: 20,
-            height: 20,
-            alignSelf: 'center',
-            marginRight: 10,
-          }}
-          resizeMode="contain"
-          source={require('../../asset/icon/address.png')}
+    <SafeAreaView>
+      <StatusBar backgroundColor={color.white} barStyle="dark-content" />
+      <View>
+        <Header />
+        <FlatList
+          data={data}
+          keyExtractor={item => `${item._id}-pesanan`}
+          renderItem={({item, index}) => (
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                backgroundColor: colors.white,
+                paddingVertical: 10,
+                paddingLeft: 20,
+                justifyContent: 'space-between',
+                marginTop: 20,
+              }}>
+              <View>
+                <TextTitle title="Sans Antonio" />
+                <TextBody title="Jl. Permata Regency Blok 16 No 5" />
+              </View>
+              <Button
+                onPress={() => handleKonfirmasi(item)}
+                containerStyle={{
+                  marginTop: 0,
+                  width: 100,
+                  backgroundColor:
+                    item.status === 'sedang disiapkan'
+                      ? colors.blue
+                      : colors.primary.one,
+                }}
+                title={
+                  item.status === 'sedang disiapkan'
+                    ? 'Proses Pesanan'
+                    : 'Konfirmasi Pesanan'
+                }
+              />
+            </View>
+          )}
         />
-        <View style={{flexDirection: 'row', flex: 1}}>
-          <TextBody bold title="Kirim Ke :" />
-          <TextBody
-            style={{flex: 1}}
-            numberOfLines={1}
-            ellipsizeMode="tail"
-            title=" Permata Baloi Blok C# No 16 "
-          />
-        </View>
-        <TouchableOpacity
-          style={{
-            width: 24,
-            height: 24,
-            alignItems: 'center',
-            justifyContent: 'center',
-          }}>
-          <Image
-            style={{
-              width: 12,
-              height: 12,
-            }}
-            resizeMode="contain"
-            source={require('../../asset/icon/arrowBottom.png')}
-          />
-        </TouchableOpacity>
-      </View>
-      {/* Search Component finish */}
+        <View>
+          <BottomSheetModal
+            ref={bottomSheetRef}
+            index={1}
+            snapPoints={snapPoints}
+            backdropComponent={renderBackdrop}
+            // backgroundStyle={{
+            //   borderTopLeftRadius: 0,
+            //   borderTopRightRadius: 0,
+            //   display: 'none',
+            // }}
+            onChange={handleSheetChanges}>
+            <View style={{backgroundColor: colors.white, flex: 1}}>
+              {/* <View style={{width: '100%', height: 250}}>
+                <Image
+                  source={require('../../asset/map.png')}
+                  style={{width: undefined, height: undefined, flex: 1}}
+                />
 
-      {/* Pickup Indicator start */}
-      <View
-        style={{
-          marginHorizontal: 14,
-          marginTop: 20,
-          borderRadius: 20,
-        }}>
-        {/* Header */}
-        <View
-          style={{
-            backgroundColor: colors.primary.one,
-            paddingVertical: 10,
-            overflow: 'hidden',
-            borderTopRightRadius: 30,
-            borderTopLeftRadius: 30,
-          }}>
-          <View
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-
-              paddingHorizontal: 10,
-            }}>
-            <Image
-              style={{
-                width: 30,
-                height: 30,
-              }}
-              resizeMode="contain"
-              source={require('../../asset/icon/pack.png')}
-            />
-            <View style={{marginLeft: 10, flex: 1}}>
+                <TouchableOpacity
+                  style={{
+                    position: 'absolute',
+                    top: 100,
+                    borderWidth: 1,
+                    borderRadius: 5,
+                    borderColor: colors.white,
+                    paddingHorizontal: 20,
+                    paddingVertical: 10,
+                    alignSelf: 'center',
+                  }}>
+                  <TextBody
+                    style={{color: colors.white}}
+                    title="Tunjukkan Arah"
+                  />
+                </TouchableOpacity>
+              </View> */}
+              <View
+                style={{
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
+                  paddingHorizontal: 20,
+                  marginTop: 20,
+                }}>
+                <TextTitle title="Pelanggan" />
+                <TextTitle title={dataSelected?.name} />
+              </View>
+              <View
+                style={{
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
+                  paddingHorizontal: 20,
+                  marginTop: 20,
+                }}>
+                <TextBody title="Kecamatan" />
+                <TextBody title={dataSelected?.kecamatan} />
+              </View>
+              <View
+                style={{
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
+                  paddingHorizontal: 20,
+                  marginTop: 20,
+                }}>
+                <TextBody title="Alamat" />
+                <TextBody title={dataSelected?.address} />
+              </View>
               <TextTitle
-                bold
-                style={{color: colors.white}}
-                title="Pesanan ke 3"
+                style={{marginLeft: 20, marginTop: 20}}
+                title="List Pesanan :"
               />
-              <TextBody
-                ellipsizeMode="tail"
-                numberOfLines={1}
-                style={{color: colors.white}}
-                title={`Sedang diantar ke Permata Baloi Blok c7 No 24, Batam`}
-              />
+              {dataSelected?.status === 'sedang disiapkan' ? (
+                <Button
+                  containerStyle={{
+                    bottom: 20,
+
+                    position: 'absolute',
+                    width: '90%',
+                    backgroundColor: colors.blue,
+                  }}
+                  title="Proses Pesanan"
+                />
+              ) : (
+                <Slider
+                  // childrenContainer={{backgroundColor: colors.grayscale.one}}
+                  onEndReached={() => {
+                    Alert.alert('Attention', 'onEndReached!');
+                  }}
+                  containerStyle={{
+                    margin: 8,
+                    backgroundColor: colors.grayscale.light,
+                    borderRadius: 10,
+                    overflow: 'hidden',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    width: '95%',
+                    position: 'absolute',
+                    bottom: 20,
+                  }}
+                  sliderElement={
+                    <View
+                      style={{
+                        width: 50,
+                        height: 50,
+                        backgroundColor: colors.primary.two,
+                        margin: 10,
+                        padding: 5,
+                        borderRadius: 5,
+                      }}>
+                      <Image
+                        resizeMode="contain"
+                        style={{
+                          width: undefined,
+                          margin: 4,
+                          borderRadius: 5,
+                          height: undefined,
+                          flex: 1,
+                        }}
+                        source={require('../../asset/icon/slider.png')}
+                      />
+                    </View>
+                  }>
+                  <TextBody title="Geser untuk konfirmasi" />
+                  <TextTitle title="Pengiriman Selesai" />
+                </Slider>
+              )}
             </View>
-          </View>
-          <View
-            style={{
-              flexDirection: 'row',
-              alignItems: 'center',
-
-              paddingHorizontal: 10,
-              paddingTop: 10,
-            }}>
-            <Image
-              style={{
-                width: 30,
-                height: 30,
-              }}
-              resizeMode="contain"
-              source={require('../../asset/icon/oclock.png')}
-            />
-            <View style={{marginLeft: 10}}>
-              <TextBody
-                style={{color: colors.white}}
-                title={`2 Jam 53 menit sampai ke tujuan `}
-              />
-            </View>
-          </View>
-        </View>
-
-        {/* Body */}
-        <View
-          style={{
-            backgroundColor: colors.white,
-            paddingHorizontal: 12,
-            paddingVertical: 10,
-          }}>
-          <View style={{flexDirection: 'row', paddingTop: 5}}>
-            <TextBody title="1" />
-            <TextBody
-              bold
-              style={{flex: 2, marginLeft: 10}}
-              title="Bento Seafood Snack"
-            />
-            <TextBody style={{flex: 1, textAlign: 'center'}} title="x2" />
-            <TextBody style={{flex: 1}} title="Rp. 15.000" />
-          </View>
-          <View style={{flexDirection: 'row', paddingTop: 5}}>
-            <TextBody title="1" />
-            <TextBody
-              bold
-              style={{flex: 2, marginLeft: 10}}
-              title="Bento Seafood Snack"
-            />
-            <TextBody style={{flex: 1, textAlign: 'center'}} title="x1" />
-            <TextBody style={{flex: 1}} title="Rp. 20.000" />
-          </View>
-          <View style={{flexDirection: 'row', paddingTop: 5}}>
-            <TextBody title="1" />
-            <TextBody
-              bold
-              style={{flex: 2, marginLeft: 10}}
-              title="Bento Seafood Snack"
-            />
-            <TextBody style={{flex: 1, textAlign: 'center'}} title="x3" />
-            <TextBody style={{flex: 1}} title="Rp. 50.000" />
-          </View>
-        </View>
-
-        {/* Footer */}
-        <View
-          style={{
-            padding: 12,
-            backgroundColor: colors.black,
-            borderBottomLeftRadius: 30,
-            borderBottomRightRadius: 30,
-          }}>
-          <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
-            <TextBody
-              style={{color: colors.white}}
-              title="Total Pemesanan :"
-              bold
-            />
-            <TextBody
-              style={{color: colors.white}}
-              title="Rp. 130.000 untuk 4 item"
-            />
-          </View>
+          </BottomSheetModal>
         </View>
       </View>
-      {/* Pickup Indicator finish */}
-    </View>
+    </SafeAreaView>
   );
 };
 

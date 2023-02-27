@@ -1,4 +1,4 @@
-package com.favorito.food.newarchitecture;
+package com.favorito.kurir.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.favorito.food.BuildConfig;
-import com.favorito.food.newarchitecture.components.MainComponentsRegistry;
-import com.favorito.food.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.favorito.kurir.BuildConfig;
+import com.favorito.kurir.newarchitecture.components.MainComponentsRegistry;
+import com.favorito.kurir.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 
