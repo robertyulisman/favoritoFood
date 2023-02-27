@@ -16,6 +16,7 @@ import {BottomSheetBackdrop, BottomSheetModal} from '@gorhom/bottom-sheet';
 import Header from '../../component/Header';
 import Slider from 'react-native-slide-to-unlock';
 import {color} from 'react-native-reanimated';
+// commit from sefong here
 
 const data = [
   {
